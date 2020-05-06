@@ -90,7 +90,7 @@ var data2=[[17.4,20.3,2.9,17.4,20.9,3.5,18.2,19.6,1.4],
 [17.3,20.2,2.9,17.3,20.8,3.5,18.1,19.5,1.4]];
 
 var data3=[[16.8,20.4,3.6,18.3,19.2,0.9,17.6,19.8,2.2],
-[16.7,20.3,4.3,18.2,19.1,0.9,17.5,19.7,2.2]];
+[16.7,20.3,3.6,18.2,19.1,0.9,17.5,19.7,2.2]];
 
 var data4=[[16.4,21.3,4.9,19.2,21.6,2.4,18,20.5,2.5],
 [16.3,21.2,4.9,19.1,21.5,2.4,18.1,20.6,2.5]];
@@ -400,7 +400,7 @@ if (simsubscreennum==6)
     if(document.getElementById('output-1').value=="")
     {
       if(document.getElementById('button-1').innerHTML==="Result"){
-        document.getElementById('output-1').value=1.5691;
+        document.getElementById('output-1').value=3.0255;
         document.getElementById('button1-1').style.visibility="visible";
         button('button-1','wrong-1');
       }
@@ -408,13 +408,13 @@ if (simsubscreennum==6)
         alert("Enter the value to proceed");
     }
     else {
-      if(document.getElementById('output-1').value==1.5691)
+      if(document.getElementById('output-1').value==3.0255)
         right_condition('button-1','wrong-1','right-1','button1-1');
       else{
         flag11+=1;
         wrong_condition('output-1','wrong-1','right-1');
         if (flag11===2){
-         if(document.getElementById('output-1').value==1.5691)
+         if(document.getElementById('output-1').value==3.0255)
           document.getElementById('right-1').style.visibility="visible";
         else
           document.getElementById('button-1').innerHTML="Result";
@@ -429,7 +429,7 @@ document.getElementById('button1-1').onclick=function() {
   if(document.getElementById('output1-1').value=="")
   {
     if(document.getElementById('button1-1').innerHTML==="Result"){
-      document.getElementById('output1-1').value=0.6259;
+      document.getElementById('output1-1').value=3.651;
       document.getElementById('button2-1').style.visibility="visible";
       button('button1-1','wrong1-1');
     }
@@ -437,13 +437,13 @@ document.getElementById('button1-1').onclick=function() {
       alert("Enter the value to proceed");
   }
   else {
-    if(document.getElementById('output1-1').value==0.6259)
+    if(document.getElementById('output1-1').value==3.651)
       right_condition('button1-1','wrong1-1','right1-1','button2-1');
     else{
       flag22+=1;
       wrong_condition('output1-1','wrong1-1','right1-1');
       if (flag22===2){
-       if(document.getElementById('output1-1').value==0.6259)
+       if(document.getElementById('output1-1').value==3.651)
         document.getElementById('right1-1').style.visibility="visible";
       else
         document.getElementById('button1-1').innerHTML="Result";
@@ -457,7 +457,7 @@ document.getElementById('button2-1').onclick=function() {
   if(document.getElementById('output2-1').value=="")
   {
     if(document.getElementById('button2-1').innerHTML==="Result"){
-      document.getElementById('output2-1').value=0.9389;
+      document.getElementById('output2-1').value=1.46;
       document.getElementById('button3-1').style.visibility="visible";
       button('button2-1','wrong2-1');
     }
@@ -465,13 +465,13 @@ document.getElementById('button2-1').onclick=function() {
       alert("Enter the value to proceed");
   }
   else {
-    if(document.getElementById('output2-1').value==0.9389)
+    if(document.getElementById('output2-1').value==1.46)
       right_condition('button2-1','wrong2-1','right2-1','button3-1');
     else{
       flag33+=1;
       wrong_condition('output2-1','wrong2-1','right2-1');
       if (flag33===2){
-       if(document.getElementById('output2-1').value==0.9389)
+       if(document.getElementById('output2-1').value==1.46)
         document.getElementById('right2-1').style.visibility="visible";
       else
         document.getElementById('button2-1').innerHTML="Result";
@@ -485,7 +485,7 @@ document.getElementById('button3-1').onclick=function() {
   if(document.getElementById('output3-1').value=="")
   {
     if(document.getElementById('button3-1').innerHTML==="Result"){
-      document.getElementById('output3-1').value=1.25;
+      document.getElementById('output3-1').value=1.559;
       document.getElementById('button4-1').style.visibility="visible";
       button('button3-1','wrong3-1');
     }
@@ -493,13 +493,13 @@ document.getElementById('button3-1').onclick=function() {
       alert("Enter the value to proceed");
   }
   else {
-    if(document.getElementById('output3-1').value==1.25)
+    if(document.getElementById('output3-1').value==1.559)
       right_condition('button3-1','wrong3-1','right3-1','button4-1');
     else{
       flag44+=1;
       wrong_condition('output3-1','wrong3-1','right3-1');
       if (flag44===2){
-       if(document.getElementById('output3-1').value==1.25)
+       if(document.getElementById('output3-1').value==1.559)
         document.getElementById('right3-1').style.visibility="visible";
       else
         document.getElementById('button3-1').innerHTML="Result";
