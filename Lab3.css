@@ -199,6 +199,17 @@ input[type=number] {
   100%{ transform:rotate(-42deg)}
 }
 
+@-webkit-keyframes movecc{
+ 0%{ transform:rotate(2deg);}
+ 100%{ transform:rotate(12deg);}
+}
+@keyframes movecc{
+  0%{ transform:rotate(2deg);}
+  100%{ transform:rotate(12deg);}
+}
+
+
+
 @-webkit-keyframes movenn{
  0%{ transform:rotate(-70deg)}
  100%{ transform:rotate(-32deg)}
@@ -208,60 +219,60 @@ input[type=number] {
   100%{ transform:rotate(-32deg)}
 }
 @keyframes moves {
-  from {left:550px; }
-  to { left:100px;}
+ 0% {left:550px; }
+  100% { left:100px;}
   }
 @-webkit-keyframes moves {
-  from { left:550px;}
-  to { left:100px;}
+  0% { left:550px;}
+  100% { left:100px;}
 }
 @keyframes movess {
-  from {left:100px;}
-  to { left:260px;}
+  0% {left:100px;}
+  100% { left:260px;}
   }
 @-webkit-keyframes movess {
-  from { left:100px;}
-  to { left:260px;}
+  0% { left:100px;}
+  100% { left:260px;}
 }
 @keyframes movese {
-  from {left:260px;}
-  to { left:400px;}
+  0% {left:260px;}
+  100% { left:400px;}
   }
 @-webkit-keyframes movese {
-  from { left:260px;}
-  to { left:400px;}
+  0% { left:260px;}
+  100% { left:400px;}
 }
 @keyframes movep {
 	0%{transform: rotate(-26deg);}
-	100%{transform :rotate(-46deg);}
+	100%{transform :rotate(-46.3deg);}
   }
 @-webkit-keyframes movep {
 	0%{transform: rotate(-26deg);}
-	100%{transform :rotate(-46deg);}
+	100%{transform :rotate(-46.3deg);}
 }
 keyframes movehand1 {
-	from {left: 130px; top: 150px;}
-  to { left: 166px; top: 100px;}
+	0% {left: 130px; top: 150px;}
+  100% { left: 166px; top: 90px;}
   }
 @-webkit-keyframes movehand1 {
-	from {left: 130px; top: 150px;}
-	to { left: 166px; top: 100px;}
+	0% {left: 130px; top: 150px;}
+	100% { left: 166px; top: 90px;}
 }
 @keyframes movehand11 {
-	from {left: 166px; top: 100px;}
-	to { left: 176px; top: 175px;}
+	0%{left: 166px; top: 90px;}
+	100% { left: 176px; top: 165px;}
   }
 @-webkit-keyframes movehand11 {
-	from {left: 166px; top: 100px;}
-	to { left: 176px; top: 175px;}
+	0% {left: 166px; top: 90px;}
+	100% { left: 176px; top: 165px;}
 }
 @-webkit-keyframes sample {
 0% {-webkit-transform: translate(0, 0 );}
-100% {-webkit-transform: translate(80px, 0 );}
+100% {-webkit-transform: translate(47px, 0 );}
 }
 @keyframes sample {
     0% {transform: translate(0, 0);}
-    100% {transform: translate(80px, 0);}
+    100% {transform: translate(47px, 0);}
 }
 @-webkit-keyframes sample15 {
 0% {-webkit-transform: translate(0, 0 );}
@@ -279,23 +290,16 @@ keyframes movehand1 {
     0% {transform: translate(0, 0);}
     100% {transform: translate(100px, 0);}
 }
-@-webkit-keyframes sample1 {
-0% {-webkit-transform: translate(0, 0 );}
-100% {-webkit-transform: translate(100px, 0 );}
-}
-@keyframes sample1 {
-    0% {transform: translate(0, 0);}
-    100% {transform: translate(100px, 0);}
-}
+
 
 
 @-webkit-keyframes sample12 {
 0% {-webkit-transform: translate(0, 0 );}
-100% {-webkit-transform: translate(50px, 0 );}
+100% {-webkit-transform: translate(20px, 0 );}
 }
 @keyframes sample12 {
-    0% {transform: translate(0, 0);}
-    100% {transform: translate(50px, 0);}
+      0%{transform: translate(0, 0);}
+    100% {transform: translate(20px, 0);}
 }
 @-webkit-keyframes sample2 {
 0% {-webkit-transform: translate(0, 0 );}
@@ -307,146 +311,176 @@ keyframes movehand1 {
 }
 @-webkit-keyframes sample21 {
 0% {-webkit-transform: translate(0, 0 );}
-100% {-webkit-transform: translate(145px, 0 );}
+100% {-webkit-transform: translate(100px, 0 );}
 }
 @keyframes sample21 {
     0% {transform: translate(0, 0);}
-    100% {transform: translate(145px, 0);}
+    100% {transform: translate(100px, 0);}
 }
 
 @-webkit-keyframes sample1 {
 0% {-webkit-transform: translate(0, 0 );}
-100% {-webkit-transform: translate(65px, 0 );}
+100% {-webkit-transform: translate(38px, 0 );}
 }
 @keyframes sample1 {
     0% {transform: translate(0, 0);}
-    100% {transform: translate(65px, 0);}
+    100% {transform: translate(38px, 0);}
 }
 @-webkit-keyframes sample11 {
 0% {-webkit-transform: translate(0, 0 );}
-100% {-webkit-transform: translate(120px, 0 );}
+100% {-webkit-transform: translate(80px, 0 );}
 }
 @keyframes sample11 {
     0% {transform: translate(0, 0);}
-    100% {transform: translate(120px, 0);}
+    100% {transform: translate(80px, 0);}
 }
+
+ @-webkit-keyframes sample01 {
+0% {-webkit-transform: translate(0, 0 );}
+100% {-webkit-transform: translate(84px, 0 );}
+}
+@keyframes sample01 {
+    0% {transform: translate(0, 0);}
+    100% {transform: translate(84px, 0);}
+} 
+
 @-webkit-keyframes sample10 {
 0% {-webkit-transform: translate(0, 0 );}
-100% {-webkit-transform: translate(110px, 0 );}
+100% {-webkit-transform: translate(65px, 0 );}
 }
 @keyframes sample10 {
     0% {transform: translate(0, 0);}
-    100% {transform: translate(110px, 0);}
+    100% {transform: translate(65px, 0);}
 }
 @-webkit-keyframes movehand12 {
-	from {left: 130px; }
-	to { left: 395px; }
+	0% {left: 40px; }
+	100% { left: 240px; }
 }
 @keyframes movehand12 {
-	from {left: 130px;}
-	to { left: 395px;}
+	0% {left: 40px;}
+	100% { left: 240px;}
   }
 @-webkit-keyframes movebox {
-from {left: 165px; }
-to { left: 425px; }
+0% {left: 195px; }
+100% { left: 390px; }
 }
 @keyframes movebox {
-from {left: 165px;}
-to { left: 425px;}
+0% {left: 195px;}
+100% { left: 390px;}
 }
 	  
 @-webkit-keyframes movehand24 {
-	from {left: 130px; }
-	to { left: 360px; }
+	0% {left: 40px; }
+	100% { left: 220px; }
 }
 @keyframes movehand24 {
-	from {left: 130px;}
-	to { left: 360px;}
+	0% {left: 40px;}
+	100% { left: 220px;}
   }
 	@-webkit-keyframes movebox4 {
-		from {left: 165px; }
-		to { left: 390px; }
+		0% {left: 195px; }
+		100% { left: 362px; }
 	}
 	@keyframes movebox4 {
-		from {left: 165px;}
-		to { left: 390px;}
+		0% {left: 195px;}
+		100% { left: 362px;}
 	  }
 	  
--webkit-keyframes movehand25 {
-	from {left: 130px; }
-	to { left: 455px; }
+@-webkit-keyframes movehand25 {
+	0% {left: 40px; }
+	100% { left: 295px; }
 }
 @keyframes movehand25 {
-	from {left: 130px;}
-	to { left: 455px;}
+	0% {left: 40px;}
+	100% { left: 295px;}
   }
 	@-webkit-keyframes movebox5 {
-		from {left: 165px; }
-		to { left: 485px; }
+		0% {left: 195px; }
+		100% { left: 440px; }
 	}
 	@keyframes movebox5 {
-		from {left: 165px;}
-		to { left: 485px;}
+		0% {left: 195px;}
+		100% { left: 440px;}
 	  }
 	  
 @-webkit-keyframes movehand13 {
-	from {left: 130px; }
-	to { left: 415px; }
+	0% {left:40px; }
+	100% { left: 255px; }
 }
 @keyframes movehand13 {
-	from {left: 130px;}
-	to { left: 415px;}
+	0% {left: 40px;}
+	100% { left: 255px;}
   }
 	@-webkit-keyframes movebox1 {
-		from {left: 165px; }
-		to { left: 445px; }
+		0% {left: 195px; }
+		100% { left: 410px; }
 	}
 	@keyframes movebox1 {
-		from {left: 165px;}
-		to { left: 445px;}
+		0% {left: 195px;}
+		100% { left: 410px;}
 	  }
 	  
 	  @-webkit-keyframes movehand21 {
-	from {left: 130px; }
-	to { left: 365px; }
+	0% {left: 40px; }
+	100% { left: 225px; }
 }
 @keyframes movehand21 {
-	from {left: 130px;}
-	to { left: 365px;}
+	0% {left: 40px;}
+	100% { left: 225px;}
   }
 	@-webkit-keyframes movebox2 {
-		from {left: 165px; }
-		to { left: 405px; }
+		0% {left: 195px; }
+		100% { left: 375px; }
 	}
 	@keyframes movebox2 {
-		from {left: 165px;}
-		to { left: 405px;}
+		0% {left: 195px;}
+		100% { left: 375px;}
 	  }
 	  
 	    @-webkit-keyframes movehand23 {
-	from {left: 130px; }
-	to { left: 410px; }
+	0% {left: 40px; }
+	100% { left: 275px; }
 }
 @keyframes movehand23 {
-	from {left: 130px;}
-	to { left: 410px;}
+	0% {left: 40px;}
+	100% { left: 275px;}
   }
 	@-webkit-keyframes movebox3 {
-		from {left: 165px; }
-		to { left: 465px; }
+		0% {left: 195px; }
+		100% { left: 420px; }
 	}
 	@keyframes movebox3 {
-		from {left: 165px;}
-		to { left: 465px;}
+		0% {left: 195px;}
+		100% { left: 420px;}
 	  }
 	  
+	  
+	  @-webkit-keyframes movehand33 {
+	0% {left: 40px; }
+	100% { left: 280px; }
+}
+@keyframes movehand33 {
+	0% {left: 40px;}
+	100% { left: 280px;}
+  }
+	@-webkit-keyframes movebox33 {
+		0% {left: 195px; }
+		100% { left: 425px; }
+	}
+	@keyframes movebox33 {
+		0% {left: 195px;}
+		100% { left: 425px;}
+	  }
+	  
+	  
+	  
 		@keyframes movehand2 {
-			from {left: 280px; top: 150px;}
-		  to { left: 209px; top: 70px;}
+			0% {left: 280px; top: 150px;}
+		  100% { left: 210px; top: 60px;}
 		  }
 		@-webkit-keyframes movehand2 {
-			from {left: 280px; top: 150px;}
-			to { left: 209px; top: 70px;}
+			0% {left: 280px; top: 150px;}
+			100% { left: 210px; top: 60px;}
 		}
 		@keyframes movepp {
 			0%{transform: rotate(-26deg);}
@@ -457,12 +491,12 @@ to { left: 425px;}
 			100%{transform :rotate(-45.4deg);}
 		}
 		@keyframes movehand22 {
-			from {left: 209px; top: 70px;}
-			to {left:212px; top:145px; }
+			0% {left: 210px; top: 60px;}
+			100% {left:212px; top:140px; }
 			}
 		@-webkit-keyframes movehand22 {
-			from {left: 209px; top: 70px;}
-			to {left:212px; top:145px; }
+			0% {left: 210px; top: 60px;}
+			100% {left:212px; top:140px; }
 		}
 		@keyframes movep1 {
 			0%{transform: rotate(-30deg);}
@@ -473,20 +507,20 @@ to { left: 425px;}
 			100%{transform :rotate(-16.5deg);}
 		}
 		@keyframes movehand01 {
-			from {left: 225px; top: 110px;}
-			to {left:225px; top:73px; }
+			0% {left: 220px; top: 108px;}
+			100% {left:221px; top:71px; }
 			}
 		@-webkit-keyframes movehand01 {
-			from {left: 225px; top: 110px;}
-			to {left:225px; top:73px; }
+			0% {left: 220px; top: 108px;}
+			100% {left:221px; top:71px; }
 		}
 		@keyframes movehand011 {
-			from {left: 130px; top: 150px;}
-			to {left:221px; top:110px; }
+			0% {left: 130px; top: 150px;}
+			100% {left:220px; top:108px; }
 			}
 		@-webkit-keyframes movehand011 {
-			from {left: 130px; top: 150px;}
-			to {left:221px; top:110px; }
+			0% {left: 130px; top: 150px;}
+			100%{left:220px; top:108px; }
 		}
 		@keyframes movep2 {
 			0%{transform: rotate(-10deg);}
@@ -497,10 +531,10 @@ to { left: 425px;}
 			100%{transform :rotate(-14deg);}
 		}
 		@keyframes movehand02 {
-			from { left: 267px; top: 33px;}
-			to { left: 264px; top: 48px; }
+			0% { left: 267px; top: 28px;}
+			100% { left: 264px; top: 43px; }
 			}
 		@-webkit-keyframes movehand02 {
-			from { left: 267px; top: 33px;}
-			to { left: 264px; top: 48px; }
+			0% { left: 267px; top: 28px;}
+			100% { left: 264px; top: 43px; }
 		}
